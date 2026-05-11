@@ -3,38 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Darwin Xu | AI Scientist in Biology</title>
+    <meta name="description" content="Darwin Xu is an AI scientist in biology working at the intersection of machine learning, biological data, and scientific discovery.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to the homepage of Darwin Xu</h1>
+    <header class="site-header">
         <nav>
+            <a class="brand" href="#">Darwin Xu</a>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#portfolio">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
+        <div class="hero">
+            <p class="eyebrow">AI Scientist in Biology</p>
+            <h1>Building machine learning systems for biological discovery.</h1>
+            <p class="hero-copy">I work at the intersection of AI, biological data, and scientific questions that benefit from careful modeling and clear experiments.</p>
+            <div class="hero-actions" aria-label="Primary links">
+                <a class="button button-primary" href="#portfolio">View Work</a>
+                <a class="button button-secondary" href="mailto:darwinanxu@gmail.com">Email Me</a>
+            </div>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Darwin, a machine learning engineer. Welcome to my personal website.</p>
-    </section>
+    <main>
+        <section id="about" class="section intro-section">
+            <div>
+                <p class="section-label">About</p>
+                <h2>Scientific ML with a biology-first lens.</h2>
+            </div>
+            <p>Hello! I'm Darwin, an AI scientist working at the intersection of machine learning and biology. I care about models that are useful, interpretable, and grounded in real scientific context.</p>
+        </section>
 
-    <section id="portfolio">
-        <h2>My Projects</h2>
-        <p>Check out some of my work below.</p>
-    </section>
+        <section id="portfolio" class="section">
+            <div class="section-heading">
+                <p class="section-label">Work</p>
+                <h2>Selected focus areas</h2>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <span>01</span>
+                    <h3>Biological Data Modeling</h3>
+                    <p>Machine learning workflows for extracting signal from complex biological datasets.</p>
+                </article>
+                <article class="project-card">
+                    <span>02</span>
+                    <h3>Scientific AI Systems</h3>
+                    <p>Modeling tools that support experimental thinking, iteration, and reproducible analysis.</p>
+                </article>
+                <article class="project-card">
+                    <span>03</span>
+                    <h3>Applied Research</h3>
+                    <p>Bridging modern AI methods with practical questions in biology and biomedical science.</p>
+                </article>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: darwinanxu@gmail.com</p>
-    </section>
+        <section id="contact" class="section contact-section">
+            <div>
+                <p class="section-label">Contact</p>
+                <h2>Let's connect.</h2>
+            </div>
+            <a class="contact-link" href="mailto:darwinanxu@gmail.com">darwinanxu@gmail.com</a>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2025 Darwin Xu</p>
+        <p>© <span id="year">2026</span> Darwin Xu</p>
     </footer>
 
     <script src="script.js"></script>
