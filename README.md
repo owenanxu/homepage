@@ -1,6 +1,6 @@
-# Darwin Xu Homepage
+# Owen Xu Homepage
 
-Personal homepage for Darwin Xu, presenting a profile as an AI scientist working at the intersection of machine learning and biology.
+Personal homepage for Owen Xu, presenting a profile as an AI scientist working at the intersection of machine learning and biology.
 
 ## Overview
 
